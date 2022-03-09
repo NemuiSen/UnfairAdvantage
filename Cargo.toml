@@ -1,0 +1,13 @@
+[package]
+name = "unfair-advantage"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#bevy = { version = "0.6.1", features = ["dynamic"] }
+bevy = "0.6.1"
+bevy_ecs_ldtk = { version = "0.2.0", features = ["atlas"] }
+heron = { version = "2.0.1", features = ["2d"] }
+rand = "0.8.5"
